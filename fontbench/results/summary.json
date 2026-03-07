@@ -1,0 +1,302 @@
+{
+  "Qwen2.5-VL-7B": {
+    "model": "Qwen2.5-VL-7B",
+    "mc_accuracy": 0.512,
+    "mc_per_property": {
+      "font_family": 0.352,
+      "font_size": 0.444,
+      "font_style": 0.276,
+      "font_color": 0.976
+    },
+    "mc_by_difficulty": {
+      "easy": 0.5142045454545454,
+      "medium": 0.5324675324675324,
+      "hard": 0.49117647058823527
+    },
+    "mc_by_script": {
+      "cjk": 0.6527777777777778,
+      "latin": 0.4975369458128079,
+      "other": 0.5258620689655172
+    }
+  },
+  "Qwen2.5-VL-32B": {
+    "model": "Qwen2.5-VL-32B",
+    "mc_accuracy": 0.475,
+    "mc_per_property": {
+      "font_family": 0.36,
+      "font_size": 0.344,
+      "font_style": 0.304,
+      "font_color": 0.892
+    },
+    "mc_by_difficulty": {
+      "easy": 0.4943181818181818,
+      "medium": 0.4512987012987013,
+      "hard": 0.4764705882352941
+    },
+    "mc_by_script": {
+      "cjk": 0.5972222222222222,
+      "latin": 0.4729064039408867,
+      "other": 0.41379310344827586
+    }
+  },
+  "Qwen2.5-VL-72B": {
+    "model": "Qwen2.5-VL-72B",
+    "mc_accuracy": 0.511,
+    "mc_per_property": {
+      "font_family": 0.388,
+      "font_size": 0.36,
+      "font_style": 0.332,
+      "font_color": 0.964
+    },
+    "mc_by_difficulty": {
+      "easy": 0.4971590909090909,
+      "medium": 0.525974025974026,
+      "hard": 0.5117647058823529
+    },
+    "mc_by_script": {
+      "cjk": 0.6527777777777778,
+      "latin": 0.5073891625615764,
+      "other": 0.4482758620689655
+    }
+  },
+  "Qwen3-VL-8B": {
+    "model": "Qwen3-VL-8B",
+    "mc_accuracy": 0.511,
+    "mc_per_property": {
+      "font_family": 0.368,
+      "font_size": 0.392,
+      "font_style": 0.288,
+      "font_color": 0.996
+    },
+    "mc_by_difficulty": {
+      "easy": 0.5028409090909091,
+      "medium": 0.5324675324675324,
+      "hard": 0.5
+    },
+    "mc_by_script": {
+      "cjk": 0.6666666666666666,
+      "latin": 0.49507389162561577,
+      "other": 0.5258620689655172
+    }
+  },
+  "Qwen3-VL-30B-A3B": {
+    "model": "Qwen3-VL-30B-A3B",
+    "mc_accuracy": 0.544,
+    "mc_per_property": {
+      "font_family": 0.496,
+      "font_size": 0.404,
+      "font_style": 0.28,
+      "font_color": 0.996
+    },
+    "mc_by_difficulty": {
+      "easy": 0.5426136363636364,
+      "medium": 0.5487012987012987,
+      "hard": 0.5411764705882353
+    },
+    "mc_by_script": {
+      "cjk": 0.5833333333333334,
+      "latin": 0.5480295566502463,
+      "other": 0.49137931034482757
+    }
+  },
+  "Qwen3-VL-32B": {
+    "model": "Qwen3-VL-32B",
+    "mc_accuracy": 0.514,
+    "mc_per_property": {
+      "font_family": 0.424,
+      "font_size": 0.372,
+      "font_style": 0.26,
+      "font_color": 1.0
+    },
+    "mc_by_difficulty": {
+      "easy": 0.5142045454545454,
+      "medium": 0.5292207792207793,
+      "hard": 0.5
+    },
+    "mc_by_script": {
+      "cjk": 0.6666666666666666,
+      "latin": 0.5073891625615764,
+      "other": 0.46551724137931033
+    }
+  },
+  "Qwen3-Max": {
+    "model": "Qwen3-Max",
+    "mc_accuracy": 0.522,
+    "mc_per_property": {
+      "font_family": 0.46,
+      "font_size": 0.324,
+      "font_style": 0.312,
+      "font_color": 0.992
+    },
+    "mc_by_difficulty": {
+      "easy": 0.5142045454545454,
+      "medium": 0.525974025974026,
+      "hard": 0.5264705882352941
+    },
+    "mc_by_script": {
+      "cjk": 0.6527777777777778,
+      "latin": 0.5135467980295566,
+      "other": 0.5
+    }
+  },
+  "Pixtral-12B": {
+    "model": "Pixtral-12B",
+    "mc_accuracy": 0.266,
+    "mc_per_property": {
+      "font_family": 0.26,
+      "font_size": 0.272,
+      "font_style": 0.284,
+      "font_color": 0.248
+    },
+    "mc_by_difficulty": {
+      "easy": 0.2585227272727273,
+      "medium": 0.2662337662337662,
+      "hard": 0.2735294117647059
+    },
+    "mc_by_script": {
+      "cjk": 0.2638888888888889,
+      "latin": 0.270935960591133,
+      "other": 0.23275862068965517
+    }
+  },
+  "GPT-5.2": {
+    "model": "GPT-5.2",
+    "mc_accuracy": 0.599,
+    "mc_per_property": {
+      "font_family": 0.588,
+      "font_size": 0.5,
+      "font_style": 0.312,
+      "font_color": 0.996
+    },
+    "mc_by_difficulty": {
+      "easy": 0.6164772727272727,
+      "medium": 0.5974025974025974,
+      "hard": 0.5823529411764706
+    },
+    "mc_by_script": {
+      "cjk": 0.6944444444444444,
+      "latin": 0.5948275862068966,
+      "other": 0.5689655172413793
+    }
+  },
+  "Gemini-3-Flash": {
+    "model": "Gemini-3-Flash",
+    "mc_accuracy": 0.667,
+    "mc_per_property": {
+      "font_family": 0.808,
+      "font_size": 0.524,
+      "font_style": 0.336,
+      "font_color": 1.0
+    },
+    "mc_by_difficulty": {
+      "easy": 0.6590909090909091,
+      "medium": 0.672077922077922,
+      "hard": 0.6705882352941176
+    },
+    "mc_by_script": {
+      "cjk": 0.7222222222222222,
+      "latin": 0.6773399014778325,
+      "other": 0.5603448275862069
+    }
+  },
+  "Gemini-3-Pro": {
+    "model": "Gemini-3-Pro",
+    "mc_accuracy": 0.52,
+    "mc_per_property": {
+      "font_family": 0.408,
+      "font_size": 0.412,
+      "font_style": 0.32,
+      "font_color": 0.94
+    },
+    "mc_by_difficulty": {
+      "easy": 0.5085227272727273,
+      "medium": 0.5324675324675324,
+      "hard": 0.5205882352941177
+    },
+    "mc_by_script": {
+      "cjk": 0.7222222222222222,
+      "latin": 0.5123152709359606,
+      "other": 0.4482758620689655
+    }
+  },
+  "Claude-Sonnet-4.6": {
+    "model": "Claude-Sonnet-4.6",
+    "mc_accuracy": 0.586,
+    "mc_per_property": {
+      "font_family": 0.64,
+      "font_size": 0.448,
+      "font_style": 0.28,
+      "font_color": 0.976
+    },
+    "mc_by_difficulty": {
+      "easy": 0.6022727272727273,
+      "medium": 0.577922077922078,
+      "hard": 0.5764705882352941
+    },
+    "mc_by_script": {
+      "cjk": 0.625,
+      "latin": 0.603448275862069,
+      "other": 0.4396551724137931
+    }
+  },
+  "Doubao-Seed-1.6": {
+    "model": "Doubao-Seed-1.6",
+    "mc_accuracy": 0.546,
+    "mc_per_property": {
+      "font_family": 0.448,
+      "font_size": 0.444,
+      "font_style": 0.304,
+      "font_color": 0.988
+    },
+    "mc_by_difficulty": {
+      "easy": 0.53125,
+      "medium": 0.577922077922078,
+      "hard": 0.5323529411764706
+    },
+    "mc_by_script": {
+      "cjk": 0.7361111111111112,
+      "latin": 0.5197044334975369,
+      "other": 0.6120689655172413
+    }
+  },
+  "GLM-4.5V": {
+    "model": "GLM-4.5V",
+    "mc_accuracy": 0.242,
+    "mc_per_property": {
+      "font_family": 0.252,
+      "font_size": 0.22,
+      "font_style": 0.228,
+      "font_color": 0.268
+    },
+    "mc_by_difficulty": {
+      "easy": 0.22727272727272727,
+      "medium": 0.24025974025974026,
+      "hard": 0.25882352941176473
+    },
+    "mc_by_script": {
+      "cjk": 0.2916666666666667,
+      "latin": 0.23275862068965517,
+      "other": 0.27586206896551724
+    }
+  },
+  "GLM-4.6V": {
+    "model": "GLM-4.6V",
+    "mc_accuracy": 0.501,
+    "mc_per_property": {
+      "font_family": 0.392,
+      "font_size": 0.356,
+      "font_style": 0.256,
+      "font_color": 1.0
+    },
+    "mc_by_difficulty": {
+      "easy": 0.48295454545454547,
+      "medium": 0.5032467532467533,
+      "hard": 0.5176470588235295
+    },
+    "mc_by_script": {
+      "cjk": 0.6111111111111112,
+      "latin": 0.49507389162561577,
+      "other": 0.47413793103448276
+    }
+  }
+}

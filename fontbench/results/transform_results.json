@@ -1,0 +1,360 @@
+{
+  "resolution": {
+    "resize_1.0x": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.509,
+        "per_property": {
+          "font_family": 0.36,
+          "font_size": 0.392,
+          "font_style": 0.288,
+          "font_color": 0.996
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.667,
+        "per_property": {
+          "font_family": 0.808,
+          "font_size": 0.524,
+          "font_style": 0.336,
+          "font_color": 1.0
+        }
+      },
+      "GPT-5": {
+        "overall_accuracy": 0.535,
+        "per_property": {
+          "font_family": 0.332,
+          "font_size": 0.54,
+          "font_style": 0.272,
+          "font_color": 0.996
+        }
+      }
+    },
+    "resize_0.25x": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.497,
+        "per_property": {
+          "font_family": 0.34,
+          "font_size": 0.416,
+          "font_style": 0.252,
+          "font_color": 0.98
+        }
+      },
+      "GPT-5": {
+        "overall_accuracy": 0.411,
+        "per_property": {
+          "font_family": 0.2,
+          "font_size": 0.248,
+          "font_style": 0.224,
+          "font_color": 0.972
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.546,
+        "per_property": {
+          "font_family": 0.66,
+          "font_size": 0.244,
+          "font_style": 0.284,
+          "font_color": 0.996
+        }
+      }
+    },
+    "resize_0.5x": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.504,
+        "per_property": {
+          "font_family": 0.352,
+          "font_size": 0.412,
+          "font_style": 0.268,
+          "font_color": 0.984
+        }
+      },
+      "GPT-5": {
+        "overall_accuracy": 0.497,
+        "per_property": {
+          "font_family": 0.32,
+          "font_size": 0.432,
+          "font_style": 0.248,
+          "font_color": 0.988
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.631,
+        "per_property": {
+          "font_family": 0.76,
+          "font_size": 0.444,
+          "font_style": 0.324,
+          "font_color": 0.996
+        }
+      }
+    },
+    "resize_2.0x": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.519,
+        "per_property": {
+          "font_family": 0.424,
+          "font_size": 0.364,
+          "font_style": 0.292,
+          "font_color": 0.996
+        }
+      },
+      "GPT-5": {
+        "overall_accuracy": 0.491,
+        "per_property": {
+          "font_family": 0.4,
+          "font_size": 0.26,
+          "font_style": 0.304,
+          "font_color": 1.0
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.633,
+        "per_property": {
+          "font_family": 0.748,
+          "font_size": 0.472,
+          "font_style": 0.312,
+          "font_color": 1.0
+        }
+      }
+    }
+  },
+  "gaussian_noise": {
+    "gaussian_noise_sigma10": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.507,
+        "per_property": {
+          "font_family": 0.34,
+          "font_size": 0.412,
+          "font_style": 0.28,
+          "font_color": 0.996
+        }
+      },
+      "GPT-5.2": {
+        "overall_accuracy": 0.608,
+        "per_property": {
+          "font_family": 0.596,
+          "font_size": 0.556,
+          "font_style": 0.288,
+          "font_color": 0.992
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.662,
+        "per_property": {
+          "font_family": 0.76,
+          "font_size": 0.556,
+          "font_style": 0.332,
+          "font_color": 1.0
+        }
+      }
+    },
+    "gaussian_noise_sigma50": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.504,
+        "per_property": {
+          "font_family": 0.348,
+          "font_size": 0.432,
+          "font_style": 0.252,
+          "font_color": 0.984
+        }
+      },
+      "GPT-5.2": {
+        "overall_accuracy": 0.506,
+        "per_property": {
+          "font_family": 0.504,
+          "font_size": 0.416,
+          "font_style": 0.22,
+          "font_color": 0.884
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.631,
+        "per_property": {
+          "font_family": 0.692,
+          "font_size": 0.52,
+          "font_style": 0.328,
+          "font_color": 0.984
+        }
+      }
+    }
+  },
+  "gaussian_blur": {
+    "gaussian_blur_r1": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.514,
+        "per_property": {
+          "font_family": 0.376,
+          "font_size": 0.4,
+          "font_style": 0.296,
+          "font_color": 0.984
+        }
+      },
+      "GPT-5.2": {
+        "overall_accuracy": 0.581,
+        "per_property": {
+          "font_family": 0.588,
+          "font_size": 0.496,
+          "font_style": 0.252,
+          "font_color": 0.988
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.622,
+        "per_property": {
+          "font_family": 0.772,
+          "font_size": 0.396,
+          "font_style": 0.324,
+          "font_color": 0.996
+        }
+      }
+    },
+    "gaussian_blur_r4": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.461,
+        "per_property": {
+          "font_family": 0.264,
+          "font_size": 0.364,
+          "font_style": 0.276,
+          "font_color": 0.94
+        }
+      },
+      "GPT-5.2": {
+        "overall_accuracy": 0.487,
+        "per_property": {
+          "font_family": 0.352,
+          "font_size": 0.352,
+          "font_style": 0.3,
+          "font_color": 0.944
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.494,
+        "per_property": {
+          "font_family": 0.488,
+          "font_size": 0.292,
+          "font_style": 0.26,
+          "font_color": 0.936
+        }
+      }
+    }
+  },
+  "rotation": {
+    "rotation_45deg": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.467,
+        "per_property": {
+          "font_family": 0.32,
+          "font_size": 0.356,
+          "font_style": 0.196,
+          "font_color": 0.996
+        }
+      },
+      "GPT-5.2": {
+        "overall_accuracy": 0.547,
+        "per_property": {
+          "font_family": 0.552,
+          "font_size": 0.46,
+          "font_style": 0.176,
+          "font_color": 1.0
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.605,
+        "per_property": {
+          "font_family": 0.656,
+          "font_size": 0.512,
+          "font_style": 0.252,
+          "font_color": 1.0
+        }
+      }
+    },
+    "rotation_5deg": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.489,
+        "per_property": {
+          "font_family": 0.34,
+          "font_size": 0.348,
+          "font_style": 0.268,
+          "font_color": 1.0
+        }
+      },
+      "GPT-5.2": {
+        "overall_accuracy": 0.579,
+        "per_property": {
+          "font_family": 0.548,
+          "font_size": 0.548,
+          "font_style": 0.224,
+          "font_color": 0.996
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.61,
+        "per_property": {
+          "font_family": 0.692,
+          "font_size": 0.508,
+          "font_style": 0.24,
+          "font_color": 1.0
+        }
+      }
+    }
+  },
+  "jpeg_compression": {
+    "jpeg_q75": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.525,
+        "per_property": {
+          "font_family": 0.392,
+          "font_size": 0.412,
+          "font_style": 0.3,
+          "font_color": 0.996
+        }
+      },
+      "GPT-5.2": {
+        "overall_accuracy": 0.618,
+        "per_property": {
+          "font_family": 0.596,
+          "font_size": 0.568,
+          "font_style": 0.316,
+          "font_color": 0.992
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.648,
+        "per_property": {
+          "font_family": 0.756,
+          "font_size": 0.512,
+          "font_style": 0.332,
+          "font_color": 0.992
+        }
+      }
+    },
+    "jpeg_q10": {
+      "Qwen3-VL-8B": {
+        "overall_accuracy": 0.499,
+        "per_property": {
+          "font_family": 0.368,
+          "font_size": 0.448,
+          "font_style": 0.272,
+          "font_color": 0.908
+        }
+      },
+      "GPT-5.2": {
+        "overall_accuracy": 0.545,
+        "per_property": {
+          "font_family": 0.544,
+          "font_size": 0.476,
+          "font_style": 0.256,
+          "font_color": 0.904
+        }
+      },
+      "Gemini-3-Flash": {
+        "overall_accuracy": 0.565,
+        "per_property": {
+          "font_family": 0.704,
+          "font_size": 0.356,
+          "font_style": 0.284,
+          "font_color": 0.916
+        }
+      }
+    }
+  }
+}
