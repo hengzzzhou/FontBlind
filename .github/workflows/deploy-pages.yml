@@ -18,12 +18,31 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      PAGES_PAT: ${{ secrets.PAGES_PAT }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Configure GitHub Pages
+        id: pages
+        if: ${{ env.PAGES_PAT == '' }}
+        continue-on-error: true
         uses: actions/configure-pages@v5
+
+      - name: Explain missing GitHub Pages setup
+        if: ${{ env.PAGES_PAT == '' && steps.pages.outcome == 'failure' }}
+        run: |
+          echo "::error::GitHub Pages is not enabled for this repository."
+          echo "::error::Open Settings > Pages and set Source to GitHub Actions, or add a PAGES_PAT secret so this workflow can enable Pages automatically."
+          exit 1
+
+      - name: Configure GitHub Pages with auto-enable
+        if: ${{ env.PAGES_PAT != '' }}
+        uses: actions/configure-pages@v5
+        with:
+          token: ${{ env.PAGES_PAT }}
+          enablement: true
 
       - name: Build static site artifact
         run: ./scripts/build_site.sh site-dist
