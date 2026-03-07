@@ -32,3 +32,4 @@ Thumbs.db
 fontbench/data/transformed/
 fontbench/data/realworld/images/
 fontbench/finetuning/train_data/
+site-dist/

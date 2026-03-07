@@ -174,6 +174,14 @@ python -m fontbench.finetuning.generate_train_data
 | Pixtral-12B | Open | 26.0 | 27.2 | 28.4 | 24.8 | 26.6% |
 | GLM-4.5V | Commercial | 25.2 | 22.0 | 22.8 | 26.8 | 24.2% |
 
+### Fine-Tuning: Closing the Gap with LoRA
+
+<p align="center">
+  <img src="assets/finetuning_bar.png" width="75%">
+</p>
+
+<p align="center"><em>LoRA fine-tuning on 3,000 synthetic samples lifts Qwen3-VL-8B from 51.1% to 60.8%, narrowing the gap to Gemini-3-Flash (66.7%) to just 5.9pp. Font size gains are the most dramatic (+20.8pp).</em></p>
+
 ### FRB Cross-Benchmark: Typographic Stroop Effect
 
 <p align="center">
