@@ -51,6 +51,10 @@ FontBlind/
 │   ├── run_eval.py                # Main evaluation entry point
 │   ├── frb_eval.py                # FRB cross-benchmark evaluation
 │   ├── visualize.py               # Plot generation
+│   ├── experiments/               # Experiment runners and one-off utilities
+│   │   ├── run_robustness.py
+│   │   ├── run_resolution_fast.py
+│   │   └── run_frb_single.py
 │   ├── attention/                 # Attention map extraction & visualization
 │   ├── data/
 │   │   ├── synthetic/             # 250 benchmark samples + metadata
@@ -62,9 +66,10 @@ FontBlind/
 │       ├── train_lora.py          # LoRA training script
 │       ├── eval_finetuned.py      # Evaluate fine-tuned models
 │       └── serve_lora.py          # Serve LoRA adapter via vLLM
+├── site/                          # Project website source (HTML/CSS/JS)
+├── site-dist/                     # Generated GitHub Pages artifact
+├── scripts/                       # Build and sync helpers
 ├── tests/                         # Unit & integration tests
-├── run_robustness.py              # Robustness evaluation runner
-├── run_resolution_fast.py         # Resolution ablation runner
 └── requirements.txt
 ```
 
@@ -116,10 +121,10 @@ Results are saved to `fontbench/results/`.
 
 ```bash
 # Robustness (noise, blur, JPEG, rotation)
-python run_robustness.py --models Qwen3-VL-8B
+python -m fontbench.experiments.run_robustness --models Qwen3-VL-8B
 
 # Resolution ablation (0.25x, 0.5x, 1.0x, 2.0x)
-python run_resolution_fast.py --models Qwen3-VL-8B Gemini-3-Flash GPT-5.2
+python -m fontbench.experiments.run_resolution_fast --models Qwen3-VL-8B Gemini-3-Flash GPT-5.2
 ```
 
 ### FRB Cross-Benchmark
