@@ -163,16 +163,16 @@ python -m fontbench.finetuning.generate_train_data
 | Claude-Sonnet-4.6 | Commercial | 64.0 | 44.8 | 28.0 | 97.6 | 58.6% |
 | Doubao-Seed-1.6 | Commercial | 44.8 | 44.4 | 30.4 | 98.8 | 54.6% |
 | Qwen3-VL-30B-A3B | Open | 49.6 | 40.4 | 28.0 | 99.6 | 54.4% |
-| Qwen3-Max | Open | 46.0 | 32.4 | 31.2 | 99.2 | 52.2% |
+| Qwen3-Max | Commercial | 46.0 | 32.4 | 31.2 | 99.2 | 52.2% |
 | Gemini-3-Pro | Commercial | 40.8 | 41.2 | 32.0 | 94.0 | 52.0% |
 | Qwen3-VL-32B | Open | 42.4 | 37.2 | 26.0 | **100.0** | 51.4% |
 | Qwen2.5-VL-7B | Open | 35.2 | 44.4 | 27.6 | 97.6 | 51.2% |
 | Qwen2.5-VL-72B | Open | 38.8 | 36.0 | 33.2 | 96.4 | 51.1% |
 | Qwen3-VL-8B | Open | 36.8 | 39.2 | 28.8 | 99.6 | 51.1% |
-| GLM-4.6V | Commercial | 39.2 | 35.6 | 25.6 | **100.0** | 50.1% |
+| GLM-4.6V | Open | 39.2 | 35.6 | 25.6 | **100.0** | 50.1% |
 | Qwen2.5-VL-32B | Open | 36.0 | 34.4 | 30.4 | 89.2 | 47.5% |
 | Pixtral-12B | Open | 26.0 | 27.2 | 28.4 | 24.8 | 26.6% |
-| GLM-4.5V | Commercial | 25.2 | 22.0 | 22.8 | 26.8 | 24.2% |
+| GLM-4.5V | Open | 25.2 | 22.0 | 22.8 | 26.8 | 24.2% |
 
 ### Fine-Tuning: Closing the Gap with LoRA
 
@@ -222,9 +222,9 @@ pytest tests/
 If you use FontBlind in your research, please cite:
 
 ```bibtex
-@article{fontblind2026,
-  title={FontBlind: Are Vision Language Models Truly Seeing Fonts?},
-  author={FontBlind Authors},
+@article{zhou2026reading,
+  title={Reading != Seeing: Diagnosing and Closing the Typography Gap in Vision-Language Models},
+  author={Zhou, Heng and Yu, Ao and Kang, Li and Fan, Yuchen and Fan, Yutao and Song, Xiufeng and Geng, Hejia and Qin, Yiran},
   year={2026}
 }
 ```
