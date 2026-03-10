@@ -227,10 +227,14 @@ pytest tests/
 If you use FontBlind in your research, please cite:
 
 ```bibtex
-@article{zhou2026reading,
-  title={Reading != Seeing: Diagnosing and Closing the Typography Gap in Vision-Language Models},
-  author={Zhou, Heng and Yu, Ao and Kang, Li and Fan, Yuchen and Fan, Yutao and Song, Xiufeng and Geng, Hejia and Qin, Yiran},
-  year={2026}
+@misc{zhou2026readingneqseeingdiagnosing,
+  title={Reading $\neq$ Seeing: Diagnosing and Closing the Typography Gap in Vision-Language Models},
+  author={Heng Zhou and Ao Yu and Li Kang and Yuchen Fan and Yutao Fan and Xiufeng Song and Hejia Geng and Yiran Qin},
+  year={2026},
+  eprint={2603.08497},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2603.08497},
 }
 ```
 
